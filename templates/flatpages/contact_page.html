@@ -1,0 +1,12 @@
+{% extends 'flatpages/default.html' %}
+
+{% block title %}
+{{ flatpage.title }}
+{% endblock title %}
+
+{% block content %}
+    <h2>{{ flatpage.title }}</h2>
+    <hr>
+    <h1><span style="text-decoration: underline;">Наши контакты:</span></h1>
+<p style="text-align: center;"><strong>+7123456789 - </strong><em>наш менеджер</em><br /><strong>+7123456789 - </strong><em>главный директор</em></p>
+{% endblock content %}
